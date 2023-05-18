@@ -1,0 +1,58 @@
+@import "../../others/vars";
+@import "../../others/fonts";
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+   
+  }
+.footer {
+    background-image: url(../../img/background__cloud.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 5;
+    position: sticky;
+    font-family: 'Rubik-main';
+    padding-top: 170px;
+    margin-top: -190px;
+    
+  .footer__table_small {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+    .footer_right {
+        .footer_right_info {
+
+            display: flex;
+            flex-direction: column;
+           
+            h2 {
+                color: $color-yellow;
+            }
+
+            a:hover {
+                background-color: transparent;
+            }
+
+            button {
+                background-color: $color-yellow;
+                color: $color-blue;
+                width: 200px;
+                height: 50px;
+                font-family: 'Rubok-main';
+                border: none;
+                border-radius: 10px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            button:hover {
+                color: $color-white;
+                background-color: $color-blue;
+            }
+
+        }
+    }
+    
+}

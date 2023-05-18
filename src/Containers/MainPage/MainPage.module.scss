@@ -1,0 +1,67 @@
+@import "../../others/vars";
+@import "../../others/fonts";
+
+
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+    
+   
+  }
+
+  
+
+.main__slogan p {
+    font-family: 'Rubik-exrtra-bold';
+    font-size: 50px;
+    font-weight: 700;
+    color: $color-blue2;
+    letter-spacing:1vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    
+}
+
+.main__button {
+    display: flex;
+    justify-content: center;
+    
+    button{
+        width: 150px;
+        height: 50px;
+        margin-top: 25px;
+        border-radius: 10px;
+        background-color: $color-yellow;
+        border: none;
+        font-family: 'Rubik-main';
+        color: $color-blue;
+    }
+
+    button:hover {
+        color: $color-white;
+        background-color: $color-blue;
+    }
+
+}
+
+.main__photos {
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+    position: sticky;
+    z-index: 0;
+     .main__photos_main {
+         margin-left: -100px;
+         max-width:100%;
+         height:auto;
+         z-index: 0;
+         
+         
+        
+ 
+ }
+ 
+ }

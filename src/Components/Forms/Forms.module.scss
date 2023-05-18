@@ -1,0 +1,73 @@
+@import "../../others/vars";
+@import "../../others/fonts";
+
+
+li {
+  list-style: none;
+}
+
+button{
+  background-color: $color-yellow;
+  border: none;
+  font-family: 'Rubik-main';
+  color: $color-blue;
+  margin-left: 5px;
+
+
+ 
+}
+
+
+button:hover {
+  color: $color-white;
+  background-color: $color-blue;
+}
+
+h1 {
+  color: $color-blue2;
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+}
+
+
+ul {
+  
+
+  margin-top: 5vh;
+  font-family: "Rubik-menu";
+  margin-bottom: 50vh;
+  
+      li {
+        max-width: 50vh;
+        display: flex;
+        border: 1px solid #fff;
+        justify-content: space-between;
+        margin-top: 3vh;
+        
+      }
+
+  
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+
+    .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+
+      .center_input {
+        width: 20vh;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+   
+  }
+
+
